@@ -1,0 +1,76 @@
+/* Estilos gerais */
+html, body {
+    font-family: 'Georgia', serif; /* Fonte elegante e fácil de ler */
+    line-height: 1.6; /* Linha mais espaçada para melhorar a leitura */
+    margin: 0;
+    padding: 20px;
+    background-color: #727070; /* Fundo suave */
+    background-image: url('Plano fundo.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #333; /* Cor do texto */
+    height: 100%;
+    width: 100%;
+}
+
+/* Estilo para o título principal */
+h1 {
+    font-family: 'Arial', sans-serif; /* Fonte diferente para o título */
+    font-size: 2.5em; /* Tamanho maior para destaque */
+    text-align: center; /* Centraliza o título */
+    color: #fcfafa; /* Cor mais escura */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+    
+}
+
+/* Estilo para parágrafos */
+p {
+    font-size: 1.2em; /* Tamanho de fonte maior para leitura confortável */
+    max-width: 800px; /* Limita a largura dos parágrafos para facilitar a leitura */
+    margin: 0 auto 20px; /* Centraliza o texto e adiciona espaçamento entre parágrafos */
+    text-align: justify; /* Justifica o texto para alinhamento uniforme nas laterais */
+    background-color: #757474; /* Fundo branco para destacar o texto */
+    padding: 15px; /* Espaçamento interno para o texto não ficar colado nas bordas */
+    border-radius: 8px; /* Bordas levemente arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para destaque */
+    color: #fcfafa;
+}
+
+/* Estilo para links dentro de parágrafos (se houver) */
+p a {
+    color: #2980b9; /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+p a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+    color: #3498db; /* Cor mais clara ao passar o mouse */
+}
+/* Estilo para o botão de voltar */
+.botao-voltar {
+    display: inline-block; 
+    background-color: #ffffff; /* Cor de fundo azul */
+    color: rgb(8, 8, 8); /* Cor do texto */
+    padding: 5px 5px; /* Espaçamento interno */
+    font-size: 0.8em; /* Tamanho da fonte */
+    font-weight: bold; /* Texto em negrito */
+    text-decoration: none; /* Remove o sublinhado do link */
+    border-radius: 30px; /* Bordas arredondadas */
+    box-shadow: 0 8px 15px rgba(8, 8, 8, 0.1); /* Sombra suave */
+    transition: all 0.3s ease; /* Transição suave para hover */
+    margin-top: 150px; /* Espaçamento superior */
+    text-align: center; /* Centraliza o texto no botão */
+}
+
+/* Efeito hover (quando o mouse passa sobre o botão) */
+.botao-voltar:hover {
+    background-color: #0404f7; /* Cor de fundo mais escura no hover */
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); /* Sombra mais intensa no hover */
+    transform: translateY(-3px); /* Levanta o botão ao passar o mouse */
+}
+
+/* Efeito de foco (para acessibilidade) */
+.botao-voltar:focus {
+    outline: none; /* Remove o contorno padrão */
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.5); /* Adiciona um contorno suave ao focar */
+}
