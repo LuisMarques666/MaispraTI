@@ -5,6 +5,8 @@ body {
     margin: 0;
     padding: 20px;
     background-image: url('Header.jpeg');
+    margin-top: 12%;
+    margin-right: 20%;
 }
 
 h1 {
@@ -13,9 +15,10 @@ h1 {
 }
 
 form {
+    
     max-width: 700px;
-    margin: 0 auto;
-    background-color: #fff;
+    margin: auto;
+    background-color: #ffffff00;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
