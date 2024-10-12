@@ -1,4 +1,4 @@
-/* Estilo geral */
+
 html, body {
     margin: 0;
     padding: 0;
@@ -8,15 +8,15 @@ html, body {
     box-sizing: border-box;
 }
 
-/* Certificando que a página utilize toda a altura da tela */
+
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; /* Altura mínima de 100% da altura da viewport */
+    min-height: 100vh; 
     min-width: 100vw;
 }
 
-/* Header */
+
 header {
     background-color: #353434c4;
     color: rgb(3, 3, 3);
@@ -28,7 +28,7 @@ header {
     image-rendering: auto;
 }
 
-/* Menu de navegação */
+
 header nav ul {
     list-style: none;
     padding: 0;
@@ -50,21 +50,21 @@ header nav ul li a:hover {
     color: #fcf9f9;
 }
 
-/* Container principal (section e aside) */
+
 .container {
     display: flex;
-    flex-grow: 1; /* Faz o container crescer para preencher o espaço restante */
+    flex-grow: 1; 
     max-width: 1980px;
     margin: 0 auto;
-    width: 100%; /* Ocupa toda a largura */
+    width: 100%; 
     background-color: #a8a6a6
 }
 
-/* Seção principal */
+
 section {
     background-color: #f4f4f41f;
     padding: 20px;
-    width: 70%; /* 70% da largura */
+    width: 70%; 
 }
 
 section h2 {
@@ -79,14 +79,18 @@ section img {
     margin-inline: 90px;
 }
 
-/* Barra lateral (aside) */
+
 aside {
     background-color: #ddddddf8;
     padding: 20px;
-    width: 30%; /* 30% da largura */
+    width: 30%; 
 }
 
-/* Rodapé */
+aside ul li :hover{
+    color: #050505;
+}
+
+
 footer {
     background-color: #333;
     color: rgb(247, 247, 250);
@@ -94,7 +98,7 @@ footer {
     padding: 10px 0;
 }
 
-/* Responsividade */
+
 @media screen and (max-width: 768px) {
     .container {
         flex-direction: column;
