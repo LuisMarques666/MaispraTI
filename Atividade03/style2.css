@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c2bfbf;
+    margin: 0;
+    padding: 20px;
+    background-image: url('Header.jpeg');
+}
+
+h1 {
+    text-align: center;
+    color: #070707;
+}
+
+form {
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #111111;
+    border-radius: 7px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #494a4b;
+    color: white;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #030303;
+    transform: translateY(-3px);
+}
+
+#mensagem-sucesso {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao-voltar {
+    display: inline-block; 
+    background-color: #5e5c5c; 
+    color: rgb(247, 247, 247); 
+    padding: 10px 20px; 
+    font-size: 1.1em; 
+    font-weight: bold; 
+    text-decoration: none; 
+    border-radius: 5px; 
+    box-shadow: 0 8px 15px rgba(8, 8, 8, 0.1);
+    transition: all 0.3s ease; 
+    margin-top: 5px; 
+    text-align: center; 
+}
+
+.botao-voltar:hover {
+    background-color: #050505; 
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2); 
+    transform: translateY(-3px); 
+}
+
+
+.botao-voltar:focus {
+    outline: none; 
+    box-shadow: 0 0 0 4px rgba(52, 152, 219, 0.5); 
+}
