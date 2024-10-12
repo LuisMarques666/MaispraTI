@@ -4,11 +4,11 @@ html, body {
     line-height: 1.6; 
     margin: 0;
     padding: 20px;
-    background-color: #727070; 
+    background-color: #b8a8a8; 
     background-image: url('Plano fundo.jpeg');
     background-size: cover;
     background-repeat: no-repeat;
-    color: #333; 
+    color: #271717; 
     height: 100%;
     width: 100%;
 }
@@ -18,7 +18,7 @@ h1 {
     font-family: 'Arial', sans-serif; 
     font-size: 2.5em; 
     text-align: center; 
-    color: #fcfafa; 
+    color: #080808; 
     margin-bottom: 20px; 
     
 }
@@ -28,11 +28,11 @@ p {
     max-width: 800px; 
     margin: 0 auto 20px; 
     text-align: justify; 
-    background-color: #757474; 
+    background-color: #636bcfdc; 
     padding: 15px; 
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    color: #fcfafa;
+    color: #000000;
 }
 
 
