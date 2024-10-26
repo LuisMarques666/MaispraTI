@@ -195,7 +195,22 @@ const prompt = require('prompt-sync')()
 //     console.log(`O IMC é ${bmi.toFixed(1)}, Obesidade grau III`)
 // }
 
+let count = 0
+let num = 100
 
+do {
+    let primo = 0
+    for(let i = 1; i <= num; i++){
+        if(num % i === 0){
+            primo++
+        }
+    }
+    if(primo === 2){
+        console.log(num)
+        count++
+    }
+    num++
+} while (count < 50)
 
 
 
