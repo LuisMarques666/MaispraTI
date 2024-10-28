@@ -1,0 +1,12 @@
+form {
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: gray;
+    color: black;
+    display: block;
+}
+label {
+    margin-top: 20px;
+    padding: 5px;
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,33 @@
+
+#cabeçalho{
+    background-color: rgb(92, 94, 94);
+    color: white;
+    text-align: center;
+
+}
+#conteudo{
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.paragrafodestaque{
+    padding: 10px;
+    border-left: 4px solid;
+}
+.botao{
+    color: azure;
+    padding: 10px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.botao-clique-aqui{
+    background-color: #4caf50;
+    
+}
+.botao-saiba-mais{
+    background-color: #0822b3;
+    
+}
+
