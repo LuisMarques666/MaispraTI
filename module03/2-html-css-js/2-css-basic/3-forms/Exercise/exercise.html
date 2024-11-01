@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercise</title>
+    <link rel="stylesheet" href="exercise.css">
+</head>
+<body>
+    <form >
+        <h1>Cadastro e-commerce</h1>
+        
+        <label for="nome">Nome Completo</label>
+        <input type="text" id="nome" name="nome" >
+
+        <label for="email">E-mail</label>
+        <input type="email" id="email" name="email" placeholder="seuEmail@gmail.com">
+
+        <label for="senha">Senha</label>
+        <input type="password" id="senha" name="senha">
+
+        <label for="pais">País</label>
+        <select name="pais" id="pais">
+            <option value="brasil">Brasil</option>
+            <option value="argentina">Argentina</option>
+            <option value="estadosUnidos">Estados Unidos</option>
+        </select>
+
+        <label for="genero">Gênero</label>
+        <input type="radio" id="masculino" name="masculino">Masculino
+        <input type="radio" id="feminino" name="feminino">Feminino
+        <input type="radio" id="outro" name="outro">Outro
+
+        <fieldset>
+
+        <input  type="checkbox" id="termosServicos" name="termosServicos" value="termosServicos">
+        <label class="inline-label"for="termosServicos">Aceito Termos do Serviço</label>
+        </fieldset>
+
+        <Button type="submit">Cadastrar</Button>
+
+
+    </form>
+</body>
+</html>
