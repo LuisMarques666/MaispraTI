@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imagens</title>
+    <style>
+        #tech{
+            width: 100%;
+            height: auto;
+            border: 5px solid black;
+            border-radius: 50%;
+            box-shadow: 5px 5px 15px;
+            opacity: 0.7;
+        }
+        #img-circ{
+            width: 100%;
+            height: auto;
+            border: 5px solid black;
+            border-radius: 50%;
+            box-shadow: 5px 5px 15px;
+            opacity: 0.7;
+        }
+        figure.foto-legenda{
+            border: 8px solid gray;
+            box-shadow: 1px 1px 4px black;
+            width: 40%;
+            height: 40%;
+        }
+        figure.foto-legenda figcaption{
+            opacity: 0;
+            
+        }
+
+
+    </style>
 </head>
 <body>
-    <img src="./Header.jpeg" alt="">
+    <img id = "tech" src="../images/Tecnology.jpeg" alt="Reference">
+
+    <img id = "img-circ" src="https://via.placeholder.com/600" alt="imagem de exemplo">
+
+    <figure class="the-witcher">
+        <img src="https://i.pinimg.com/originals/3a/e9/c6/3ae9c6abae43aaa733a92e02504239d8.jpg" alt="Geralt de Rivia, Cirilla Riannon e Yennefer de Vengerberg" title = "The Witcher">
+
+        <figcaption>Geralt de Rivia, Cirilla Riannon e Yennefer de Vengerberg</figcaption>
+
+    </figure>
 </body>
 </html>
