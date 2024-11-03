@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set interval e Set timeout</title>
+    <script>
+        
+        function alterar(h1){
+            setTimeout(() =>{
+                document.write('Olá mundo')
+            }, 3000)
+        }
+
+        function intervalo(){
+        let i = 0
+
+         let j = window.setInterval(() =>{
+        document.write(i + '<br>')
+        i++
+        if(i===10){
+        clearInterval(j)
+        document.write('Contagem finalizada! <br>')
+        }
+        }, 2000)
+    }
+        function histyback(url){
+            window.history.back('https://www.google.com.br')
+        }
+        function histyforw(){
+            window.history.forward()
+        }
+
+    </script>
+
+</head>
+
+<body>
+    <h1 id="text">Hello word!</h1>
+    <button onclick="alterar('click', alterar)">Altere o texto</button>
+    <button onclick="intervalo('click', intervalo)">Contagem</button>
+    <br><br>
+
+    <button onclick="back('click', histyback)">Voltar</button>
+    <button onclick="avancar('click', histyforw)">Avançar</button>
+</body>
+</html>
